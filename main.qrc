@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/scss">
+        <file>resources/scss/dashboard.scss</file>
+        <file>resources/scss/login.scss</file>
+        <file>resources/scss/main.scss</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>resources/images/login/logo.png</file>
+        <file>resources/images/login/loginform.png</file>
+        <file>resources/images/dashboard/centos_icon.png</file>
+        <file>resources/images/dashboard/chrome_icon.png</file>
+        <file>resources/images/dashboard/console.png</file>
+        <file>resources/images/dashboard/excel_icon.png</file>
+        <file>resources/images/dashboard/logo.png</file>
+        <file>resources/images/dashboard/logout.png</file>
+        <file>resources/images/dashboard/menu.png</file>
+        <file>resources/images/dashboard/notepad_icon.png</file>
+        <file>resources/images/dashboard/power_off.png</file>
+        <file>resources/images/dashboard/power_on.png</file>
+        <file>resources/images/dashboard/redhat_icon.png</file>
+        <file>resources/images/dashboard/shutdown.png</file>
+        <file>resources/images/dashboard/windows_icon.png</file>
+        <file>resources/images/dashboard/exit.png</file>
+        <file>resources/images/dashboard/launch.png</file>
+        <file>resources/images/dashboard/log-out.png</file>
+        <file>resources/images/dashboard/maximize.png</file>
+        <file>resources/images/dashboard/minimize.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>resources/font/Roboto-Regular.ttf</file>
+        <file>resources/font/Roboto-Black.ttf</file>
+        <file>resources/font/Roboto-Bold.ttf</file>
+        <file>resources/font/Roboto-Light.ttf</file>
+        <file>resources/font/Roboto-Medium.ttf</file>
+        <file>resources/font/Roboto-Thin.ttf</file>
+    </qresource>
+</RCC>

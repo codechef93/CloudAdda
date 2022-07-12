@@ -1,0 +1,15 @@
+INPUT(
+./release/dashboardapp.o
+./release/dashboardmachine.o
+./release/dashboardwidget.o
+./release/global.o
+./release/loginwidget.o
+./release/main.o
+./release/widget.o
+./release/qrc_main.o
+./release/moc_dashboardapp.o
+./release/moc_dashboardmachine.o
+./release/moc_dashboardwidget.o
+./release/moc_loginwidget.o
+./release/moc_widget.o
+);

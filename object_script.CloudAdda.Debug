@@ -1,0 +1,15 @@
+INPUT(
+./debug/dashboardapp.o
+./debug/dashboardmachine.o
+./debug/dashboardwidget.o
+./debug/global.o
+./debug/loginwidget.o
+./debug/main.o
+./debug/widget.o
+./debug/qrc_main.o
+./debug/moc_dashboardapp.o
+./debug/moc_dashboardmachine.o
+./debug/moc_dashboardwidget.o
+./debug/moc_loginwidget.o
+./debug/moc_widget.o
+);

@@ -1,0 +1,31 @@
+
+QLabel {
+    color: rgba(110, 120, 156, 1);
+    font: 13px 'Roboto';
+    font-weight: bold;
+}
+
+QLineEdit {
+    border: 0px solid;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    font: 18px 'Roboto';
+}
+
+QPushButton {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 12;
+    font: 14px 'Roboto';
+}
+
+QCheckBox::indicator {
+     width: 15px;
+     height: 15px;
+}
+
+QCheckBox {
+        font: 14px 'Roboto';
+        color: white;
+}

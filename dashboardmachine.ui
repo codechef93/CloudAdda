@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DashboardMachine</class>
+ <widget class="QWidget" name="DashboardMachine">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>527</width>
+    <height>120</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="icon">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>25</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="main.qrc">:/images/resources/images/dashboard/windows_icon.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>36</y>
+     <width>451</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>gits.cloudadda</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>90</y>
+     <width>461</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0.1);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="running">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>0</y>
+     <width>56</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgba(27, 241, 138, 1);
+font: 10px 'Roboto';</string>
+   </property>
+   <property name="text">
+    <string>Running</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stopped">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>56</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgba(255, 105, 105, 1);
+font: 10px 'Roboto';</string>
+   </property>
+   <property name="text">
+    <string>Stopped</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="buttonWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>79</y>
+     <width>491</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="leftMargin">
+     <number>6</number>
+    </property>
+    <property name="topMargin">
+     <number>8</number>
+    </property>
+    <property name="rightMargin">
+     <number>6</number>
+    </property>
+    <property name="bottomMargin">
+     <number>8</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="powerOnButton">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: rgba(115, 126, 162, 1);
+	font: 10px 'Roboto';
+}
+
+QPushButton:pressed {
+    background-color: rgba(40, 50, 75, 0.5);
+    border-radius: 6px;
+}</string>
+      </property>
+      <property name="text">
+       <string>POWER ON</string>
+      </property>
+      <property name="icon">
+       <iconset resource="main.qrc">
+        <normaloff>:/images/resources/images/dashboard/power_on.png</normaloff>:/images/resources/images/dashboard/power_on.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="powerOffButton">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: rgba(115, 126, 162, 1);
+	font: 10px 'Roboto';
+}
+
+QPushButton:pressed {
+    background-color: rgba(40, 50, 75, 0.5);
+    border-radius: 6px;
+}</string>
+      </property>
+      <property name="text">
+       <string>POWER OFF</string>
+      </property>
+      <property name="icon">
+       <iconset resource="main.qrc">
+        <normaloff>:/images/resources/images/dashboard/power_off.png</normaloff>:/images/resources/images/dashboard/power_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="hSpacer2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="shutDownButton">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: rgba(115, 126, 162, 1);
+	font: 10px 'Roboto';
+}
+
+QPushButton:pressed {
+    background-color: rgba(40, 50, 75, 0.5);
+    border-radius: 6px;
+}</string>
+      </property>
+      <property name="text">
+       <string>SHUT DOWN</string>
+      </property>
+      <property name="icon">
+       <iconset resource="main.qrc">
+        <normaloff>:/images/resources/images/dashboard/shutdown.png</normaloff>:/images/resources/images/dashboard/shutdown.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="hSpacer1">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="consoleButton">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: rgba(115, 126, 162, 1);
+	font: 10px 'Roboto';
+}
+
+QPushButton:pressed {
+    background-color: rgba(40, 50, 75, 0.5);
+    border-radius: 6px;
+}</string>
+      </property>
+      <property name="text">
+       <string>CONSOLE</string>
+      </property>
+      <property name="icon">
+       <iconset resource="main.qrc">
+        <normaloff>:/images/resources/images/dashboard/console.png</normaloff>:/images/resources/images/dashboard/console.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="main.qrc"/>
+ </resources>
+ <connections/>
+</ui>
