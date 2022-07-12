@@ -9,4 +9,3 @@ extern Widget* g_MainWidget;
 QString loadScss(QString filename);
 
 #endif // GLOBAL_H
-
