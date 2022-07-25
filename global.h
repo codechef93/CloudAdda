@@ -10,3 +10,5 @@ QString loadScss(QString filename);
 
 #endif // GLOBAL_H
 
+
+
